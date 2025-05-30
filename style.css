@@ -317,18 +317,14 @@ STEPS
 */
 
 #steps .row{
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.steps__img--wrapper {
+.steps__img--wrapper{
     display: flex;
     position: relative;
-}
-
-.steps__img{
-    z-index: 2;
 }
 
 .steps__description {
@@ -344,14 +340,29 @@ align-items: center;
 
 .step__number {
     color: #cbd5e0;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 1;
 }
 
-.steps__description{
+.step__description {
     display: flex;
     flex-direction: column;
     margin-left: 24px;
     max-width: 320px;
+}
+
+.step__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #243e63;
+    line-height: 1;
+}
+
+.step__para {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
 }
